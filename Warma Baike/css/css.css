@@ -3,6 +3,7 @@ div.imgcard
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
+    float: right;
 }
 div.container
 {
@@ -10,7 +11,7 @@ div.container
 }
 table
 {
-    width: 300px;
+    width: 250px;
     text-align: center;
     margin-right: 0 auto;
     background-color: #e1d8d8;
@@ -18,13 +19,26 @@ table
 body
 {
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-attachment: fixed;
+}
+caption
+{
+    color: wheat;
+    font-size: large;
 }
 .hmmm
 {
     float: right;
 }
+h1,h2
+{
+    text-align: center;
+
+    font-weight: bolder;
+}
+
+
 .heimu, .heimu a, a .heimu, .heimu a.new 
 {
     background-color: #252525;

@@ -12,6 +12,18 @@ table
 {
     width: 300px;
     text-align: center;
+    margin-right: 0 auto;
+    background-color: #e1d8d8;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.hmmm
+{
+    float: right;
 }
 .heimu, .heimu a, a .heimu, .heimu a.new 
 {
